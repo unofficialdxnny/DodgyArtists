@@ -1,0 +1,25 @@
+/* stylesheet for custom 404 error */
+
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    color: red;
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+p {
+    position: absolute;
+    top: 53%;
+    right: 975px;
+}
