@@ -1,14 +1,48 @@
+@font-face {
+  font-family: Bauhaus-93;
+  src: url(./Assets/Fonts/BAUHS93.ttf);
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #333;
+  background-image: url('https://www.billboard.com/wp-content/uploads/media/Bastille-press-by-Piczo-2019-billboard-1548_0.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+font-weight: bold;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+ul li h1 {
+  text-align: left;
+  font-size: ;
+}
+
 ul {
+  position: fixed;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: transparent;
+  border: 1px solid white;
+  
 }
+
+
 
 li {
   float: left;
 }
+
 
 li a {
   display: block;
@@ -21,3 +55,46 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+.title {
+  display: flex;
+  right: 0;
+  align-items: right;
+  justify-content: right;
+  position: fixed;
+  text-align: left;
+  font-size: 24px; 
+  color: white;
+  margin: 0;
+  padding: 10px; 
+}
+
+
+/* Main section for landing page */
+.main {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.main-content {
+  text-align: center;
+  color: #cc2932;
+}
+
+.main-content h1 {
+  font-size: 100px;
+  margin-bottom: 20px;
+  text-shadow: 0 1px 0 #a5282e, 0 2px 0 #a5282e,
+  0 3px 0 #a5282e, 0 4px 0 #a5282e,
+  0 5px 0 #a5282e, 0 6px 0 #a5282e,
+  0 7px 0 #a5282e, 0 8px 0 #a5282e,
+  0 9px 0 #a5282e, 0 10px 0 #a5282e,
+  0 11px 0 #a5282e, 0 12px 0 #a5282e,
+  0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
