@@ -6,6 +6,7 @@
 
 * {
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -84,6 +85,7 @@ li a:hover {
   color: #cc2932;
 }
 
+/* adding a bunch of shadow to the text will make it look 3D */
 .main-content h1 {
   font-size: 100px;
   margin-bottom: 20px;
@@ -96,10 +98,16 @@ li a:hover {
   0 20px 30px rgba(0, 0, 0, 0.5);
 }
 
+/* make the scrollbar invisible */
+::-webkit-scrollbar {
+  width: 0px;
+}
 
 
+/* responsive for smaller devices */
 @media only screen and (max-width: 600px) {
   .title {
     font-size: 20px;
   }
 }
+
