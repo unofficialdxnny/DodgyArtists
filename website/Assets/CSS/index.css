@@ -9,17 +9,15 @@
 }
 
 body {
-  background-color: #333;
-  background-image: url('https://www.billboard.com/wp-content/uploads/media/Bastille-press-by-Piczo-2019-billboard-1548_0.jpg');
+  background-color: #cc2932;
+  /* background-image: url('https://www.billboard.com/wp-content/uploads/media/Bastille-press-by-Piczo-2019-billboard-1548_0.jpg'); */
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 font-weight: bold;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
+
 
 ul li h1 {
   text-align: left;
