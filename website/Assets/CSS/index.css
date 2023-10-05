@@ -71,7 +71,7 @@ li a:hover {
 
 /* Main section for landing page */
 .main {
-  background-image: url(https://dodgyartists.netlify.app/Assets/Images/Landing Page image.png);
+  background-image: url(https://dodgyartists.netlify.app/Assets/Images/Landing%20Page%20image.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -95,6 +95,16 @@ li a:hover {
   0 7px 0 #a5282e, 0 8px 0 #a5282e,
   0 9px 0 #a5282e, 0 10px 0 #a5282e,
   0 11px 0 #a5282e, 0 12px 0 #a5282e,
+  0 11px 0 #a5282e, 0 12px 0 #a5282e,
+  0 11px 0 #a5282e, 0 12px 0 #a5282e,
+  0 11px 0 #a5282e, 0 12px 0 #a5282e,
+  0 11px 0 #a5282e, 0 12px 0 #a5282e,
+  0 11px 0 #a5282e, 0 12px 0 #a5282e,
+  0 11px 0 #a5282e, 0 12px 0 #a5282e,
+  0 11px 0 #a5282e, 0 12px 0 #a5282e,
+  0 11px 0 #a5282e, 0 12px 0 #a5282e,
+  0 11px 0 #a5282e, 0 12px 0 #a5282e,
+
   0 20px 30px rgba(0, 0, 0, 0.5);
 }
 
@@ -108,6 +118,12 @@ li a:hover {
 @media only screen and (max-width: 600px) {
   .title {
     font-size: 20px;
+  }
+
+  .main {
+    background-image: url(https://dodgyartists.netlify.app/Assets/Images/Landing%20Page%20image.png);
+    background-size: cover;
+   
   }
 }
 
