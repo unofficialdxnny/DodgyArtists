@@ -71,13 +71,13 @@ li a:hover {
 
 /* Main section for landing page */
 .main {
+  background-image: url(https://dodgyartists.netlify.app/Assets/Images/Landing Page image.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 
 .main-content {
