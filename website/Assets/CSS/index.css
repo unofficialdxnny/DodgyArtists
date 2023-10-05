@@ -85,6 +85,33 @@ li a:hover {
   color: #cc2932;
 }
 
+.main .main-content h1 {
+  color: #fff;
+}
+
+
+.main .main-content h1 {
+  font-size: 100px;
+  margin-bottom: 20px;
+  text-shadow: 0 1px 0 #69161d, 0 2px 0 #69161d,
+  0 3px 0 #69161d, 0 4px 0 #69161d,
+  0 5px 0 #69161d, 0 6px 0 #69161d,
+  0 7px 0 #69161d, 0 8px 0 #69161d,
+  0 9px 0 #69161d, 0 10px 0 #69161d,
+  0 11px 0 #69161d, 0 12px 0 #69161d,
+  0 11px 0 #69161d, 0 12px 0 #69161d,
+  0 11px 0 #69161d, 0 12px 0 #69161d,
+  0 11px 0 #69161d, 0 12px 0 #69161d,
+  0 11px 0 #69161d, 0 12px 0 #69161d,
+  0 11px 0 #69161d, 0 12px 0 #69161d,
+  0 11px 0 #69161d, 0 12px 0 #69161d,
+  0 11px 0 #69161d, 0 12px 0 #69161d,
+  0 11px 0 #69161d, 0 12px 0 #69161d,
+  0 11px 0 #69161d, 0 12px 0 #69161d,
+
+  0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
 /* adding a bunch of shadow to the text will make it look 3D */
 .main-content h1 {
   font-size: 100px;
@@ -114,6 +141,13 @@ li a:hover {
 }
 
 
+.active {
+  color: #a5282e;
+}
+
+li:hover{
+  color: #a5282e;
+}
 /* responsive for smaller devices */
 @media only screen and (max-width: 600px) {
   .title {
