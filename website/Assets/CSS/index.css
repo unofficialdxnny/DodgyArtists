@@ -32,18 +32,14 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: transparent;
   border: 1px solid white;
-  
+  z-index: 999; /* Ensure it's above other content */
 }
-
-
 
 li {
   float: left;
 }
-
 
 li a {
   display: block;
@@ -52,7 +48,6 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover {
   background-color: #111;
 }
@@ -67,9 +62,9 @@ li a:hover {
   font-size: 24px; 
   color: white;
   margin: 0;
-  padding: 10px; 
+  padding: 10px;
+  z-index: 999; /* Ensure it's above other content */
 }
-
 
 /* Main section for landing page */
 .main {
@@ -80,8 +75,20 @@ li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
+#main {
+  z-index: 1;
+}
+
+#about {
+  z-index: 2;
+}
+
+.about {
+  
+}
 .main-content {
   text-align: center;
   color: #cc2932;
@@ -150,6 +157,7 @@ li a:hover {
 li:hover{
   color: #a5282e;
 }
+
 /* responsive for smaller devices */
 @media only screen and (max-width: 600px) {
   .title {
