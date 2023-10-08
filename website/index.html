@@ -20,7 +20,7 @@
 
     <section id="main" class="main">
         <div class="main-content">
-          <h1>Crafting Musical Mavericks at Dodgy Artists.</h1>
+          <h1 id="hide">Crafting Musical Mavericks at Dodgy Artists.</h1>
 
         </div>
       </section>
@@ -36,7 +36,23 @@
 
 
 
+<script>
+  function hideElementOnSmallScreen() {
+  const elementToHide = document.querySelector('#hide'); // Change to the appropriate selector
 
+  if (window.innerWidth <= 600) {
+    elementToHide.style.display = 'none';
+  } else {
+    elementToHide.style.display = 'block'; // Or 'initial' depending on your desired default state
+  }
+}
+
+// Attach the event listener to the window's resize event
+window.addEventListener('resize', hideElementOnSmallScreen);
+
+// Call the function initially to set the initial state
+hideElementOnSmallScreen();
+</script>
 
     <script src="./Assets/JS/index.js"></script>
 </body>
