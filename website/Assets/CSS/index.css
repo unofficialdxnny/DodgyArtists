@@ -13,6 +13,7 @@
 
 body {
   background-color: #cc2932;
+
   /* background-image: url('https://www.billboard.com/wp-content/uploads/media/Bastille-press-by-Piczo-2019-billboard-1548_0.jpg'); */
 background-repeat: no-repeat;
 background-position: center;
@@ -157,6 +158,36 @@ li a:hover {
 li:hover{
   color: #a5282e;
 }
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  font-size: 1rem;
+}
+
 
 /* responsive for smaller devices */
 @media only screen and (max-width: 600px) {
