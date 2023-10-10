@@ -155,7 +155,11 @@ li a:hover {
   color: #a5282e;
 }
 
-li:hover{
+.active:hover {
+  color: white;
+}
+
+li a:hover{
   color: #a5282e;
 }
 
@@ -188,6 +192,11 @@ p {
   color: white;
   font-size: 15px;
 }
+
+.card h2 {
+  text-decoration: underline;
+}
+
 /* responsive for smaller devices */
 @media only screen and (max-width: 600px) {
   .title {
