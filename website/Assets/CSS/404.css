@@ -1,25 +1,18 @@
-/* stylesheet for custom 404 error */
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 
-* {
-    margin: 0;
+.error{
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: red;
+font-family: 'Days One', sans-serif;
 }
 
-body {
+span {
+    color: black;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: ;
 }
 
-h1 {
-    position: absolute;
-    top: 50%;
-    color: red;
-    font-weight: bolder;
-    font-size: 100px;
-}
-
-p {
-    position: absolute;
-    top: 53%;
-    right: 975px;
-}
