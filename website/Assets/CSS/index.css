@@ -33,3 +33,8 @@ body {
 .navbar li a:hover {
     color: red;    
 }
+
+
+.navbar li a.active {
+    color: red;
+}
