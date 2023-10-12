@@ -3,6 +3,10 @@
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #273443;
+}
+
 .navbar {
     list-style-type: none;
     margin: 0;
