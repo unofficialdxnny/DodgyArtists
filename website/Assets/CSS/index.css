@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar li a {
+    color: white;
+    text-align: center;
+    padding: 150px 16px;
+    text-decoration: none;
+    
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
