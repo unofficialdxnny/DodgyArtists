@@ -63,4 +63,8 @@ body {
     .main {
         background-image: url(./LandingPageImageMobile.png);
     }
+
+    .main-content {
+        margin-bottom: 500px;
+    }
   }
