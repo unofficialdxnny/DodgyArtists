@@ -30,3 +30,9 @@ body {
 
 
 
+
+  @media (max-width: 600px) {
+    .main {
+        background-image: url(./LandingPageImageMobile.png);
+    }
+  }
