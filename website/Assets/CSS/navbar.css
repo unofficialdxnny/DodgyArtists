@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    height: 80px; /* Adjust the height as needed */
+    align-items: center; /* Vertically center the list items */
+    position: fixed;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar li a {
+    color: black;
+    text-align: center;
+    padding: 20px 16px; /* Increase the top and bottom padding for height */
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: red;    
+}
+
+
+.navbar li a.active {
+    color: red;
+}
+
