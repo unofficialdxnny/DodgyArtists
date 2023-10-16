@@ -1,7 +1,32 @@
-body {
-    background-color: #273443;
+:root {
+    --gunmetal: #273443ff;
+--raisin-black: #1e1e24ff;
+--mint-cream: #f0f7eeff;
+--silver-lake-blue: #6390c4ff;
+--bakermiller-pink: #ff93b1ff;
+
 }
 
+
+body {
+    background-color: var(--gunmetal);
+}
+
+
+.fade-page { 
+    animation: fadeIn 5s;
+  }
+  
+  .fade-content { 
+    animation: fadeIn 7s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  
 /* Hide the scrollbar */
 ::-webkit-scrollbar {
     display: none;
@@ -20,15 +45,18 @@ body {
 
   .main-content {
     text-align: center;
-    color: white;
+    color: var(--mint-cream);
   }
 
   .main-content h1 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
   }
 
-
+.pink {
+    color: var(--bakermiller-pink);
+    font-size: 20px;
+}
 
 
   @media (max-width: 600px) {
