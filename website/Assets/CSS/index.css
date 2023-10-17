@@ -32,6 +32,8 @@ body {
     display: none;
 }
 
+
+/* Main section */
 .main {
     background-image: url('./LandingPageImage.png');
     background-size: cover;
@@ -57,10 +59,43 @@ body {
   .main-content {
     margin-bottom: 500px;
   }
-.blue {
-    color: var(--silver-lake-blue);
+.pink {
+    color: var(--bakermiller-pink);
     font-size: 20px;
 }
+
+
+
+/* about content */
+
+.about {
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.about-content {
+  text-align: center;
+  color: var(--mint-cream);
+}
+
+.about-content h1 {
+  font-size: 36px;
+  margin-bottom: 2px;
+}
+
+
+.about-content {
+  margin-bottom: 500px;
+}
+
+
+/* Music Videos */
+
 
 
   @media (max-width: 600px) {
