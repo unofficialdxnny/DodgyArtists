@@ -53,8 +53,12 @@ body {
     margin-bottom: 2px;
   }
 
-.pink {
-    color: var(--bakermiller-pink);
+
+  .main-content {
+    margin-bottom: 500px;
+  }
+.blue {
+    color: var(--silver-lake-blue);
     font-size: 20px;
 }
 
