@@ -71,7 +71,7 @@ body {
 .about {
   background-size: cover;
   background-position: center;
-  height: 60vh;
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,6 +81,7 @@ body {
 .about-content {
   text-align: center;
   color: var(--mint-cream);
+  margin-top: 500px;
 }
 
 .about-content h1 {
@@ -105,5 +106,9 @@ body {
 
     .main-content {
         margin-bottom: 500px;
+    }
+
+    .about-content {
+      margin-top: 550px;
     }
   }
