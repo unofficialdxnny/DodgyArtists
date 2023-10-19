@@ -95,6 +95,35 @@ body {
 }
 
 
+
+/* Shop Page */
+
+
+.about {
+  background-size: cover;
+  background-position: center;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.about-content {
+  text-align: center;
+  color: var(--mint-cream);
+  margin-top: 500px;
+}
+
+.about-content h1 {
+  font-size: 36px;
+  margin-bottom: 2px;
+}
+
+
+.about-content {
+  margin-bottom: 500px;
+}
 /* Music Videos */
 
 
