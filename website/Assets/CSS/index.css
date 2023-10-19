@@ -96,35 +96,26 @@ body {
 
 
 
-/* Shop Page */
+/* artists Page */
 
-
-.about {
-  background-size: cover;
-  background-position: center;
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
+.spotify-nm iframe {
+  margin-top: 200px;
+  width: 50%;
 }
 
-.about-content {
-  text-align: center;
-  color: var(--mint-cream);
-  margin-top: 500px;
+.spotify-sd iframe {
+  margin-left: 960px;
+  margin-bottom: 1200px;
+  width: 50%;
 }
 
-.about-content h1 {
-  font-size: 36px;
-  margin-bottom: 2px;
+.spotPhone iframe{
+  display: none;
 }
-
-
-.about-content {
-  margin-bottom: 500px;
+/* disabled scroll on artists page */
+#noscroll {
+  overflow: hidden;
 }
-/* Music Videos */
 
 
 
@@ -139,5 +130,24 @@ body {
 
     .about-content {
       margin-top: 550px;
+    }
+
+    .spotify-nm iframe {
+      margin-top: 100px;
+      width: 100%;
+    }
+    .spotify-sd iframe {
+      margin-top: 500px;
+      width: 100%;
+    }
+
+    .spotPhone iframe {
+      display: initial;
+      margin-top: 60px;
+      
+    }
+
+    .spotify {
+      display: none;
     }
   }
