@@ -12,6 +12,7 @@
 <body class="fade-page">
 
 
+
     
     <div id="home" class="content">
 
@@ -45,9 +46,60 @@
               </p>
         </div>
     </section>
+<br>
+<br>
+<br>
+    <div id="embed-iframe"></div>
+
+    <script>
+ window.onSpotifyIframeApiReady = (IFrameAPI) => {
+  const element = document.getElementById('embed-iframe');
+  const randomNum = Math.floor(Math.random() * 2);
+  let selectedArtist, selectedTrackUri;
+
+  // Define lists of track URIs for Snoop Dogg and Nicki Minaj
+  const snoop = [
+    "2EBCVPNAG46nbgs6jXPGvv?si=dbb60a912acc4f83",
+    "5Tbpp3OLLClPJF8t1DmrFD?si=7ed9b3c2c504467a",
+    "2NBQmPrOEEjA8VbeWOQGxO?si=9f48709f38c74fbc",
+    
+    // Add more Snoop Dogg track URIs here
+  ];
+
+  const nicki = [
+    "6RrCh7L1a0SQEZOHPThVKB?si=9c992e1406d340a1",
+    "4vgTAdLit4VNnxZ7YK06NW?si=3b5f876b6c6744f3",
+    "1ia019RqDK2o4QiANR1Dyn?si=04e10331283044f5"
+    // Add more Nicki Minaj track URIs here
+  ];
+
+  // Randomly select an artist
+  if (randomNum === 0) {
+    selectedArtist = "Snoop Dogg";
+    selectedTrackUri = snoop[Math.floor(Math.random() * snoop.length)];
+  } else {
+    selectedArtist = "Nicki Minaj";
+    selectedTrackUri = nicki[Math.floor(Math.random() * nicki.length)];
+  }
+
+  const options = {
+    uri: `spotify:track:${selectedTrackUri}`
+  };
+
+  const callback = (EmbedController) => {};
+  IFrameAPI.createController(element, options, callback);
+};
+
+        </script>
+        
+<style>
+    #embed-iframe {
+        display: none;
+    }
+</style>
 
 
-
+<script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
 <script src="./Assets/JS/select.js"></script>
     <script src="./Assets/JS/index.js"></script>
 </body>
