@@ -23,7 +23,7 @@
 }
 
 .navbar li a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px 16px; /* Increase the top and bottom padding for height */
     text-decoration: none;

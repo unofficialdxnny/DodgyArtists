@@ -27,10 +27,10 @@
     <section class="main">
         
         <div class="main-content fade-content">
-            
+<!--             
           <h1>Dodgy Artists</h1>
           <p><span class="pink">Producing</span> the best with the best</p>
-          <br>
+          <br> -->
 
         </div>
       </section>
@@ -54,33 +54,29 @@
     <script>
  window.onSpotifyIframeApiReady = (IFrameAPI) => {
   const element = document.getElementById('embed-iframe');
-  const randomNum = Math.floor(Math.random() * 2);
+  // const randomNum = Math.floor(Math.random() * 2);
   let selectedArtist, selectedTrackUri;
 
   // Define lists of track URIs for Snoop Dogg and Nicki Minaj
   const snoop = [
-    "2EBCVPNAG46nbgs6jXPGvv?si=dbb60a912acc4f83",
-    "5Tbpp3OLLClPJF8t1DmrFD?si=7ed9b3c2c504467a",
-    "2NBQmPrOEEjA8VbeWOQGxO?si=9f48709f38c74fbc",
-    
-    // Add more Snoop Dogg track URIs here
-  ];
+    "5xJUZgU9396xHsHYvfe8os?si=fe065cc67cbc477c",
+    "2UCkEI5wHbzueUFKaPDmeU?si=33589a27b71f4926",
+    "4hDKiFRmQ6KlEN0yYpuTqG?si=d7ee49b363074e2b",
+    "7jAdlhoRweKrfXu0uimkdZ?si=397893350b8d48c2",
+    "4szmbeLhzuVV42Y1UDXtE6?si=bf6e8bc5c66c4294",
+    ""
+];
 
-  const nicki = [
-    "6RrCh7L1a0SQEZOHPThVKB?si=9c992e1406d340a1",
-    "4vgTAdLit4VNnxZ7YK06NW?si=3b5f876b6c6744f3",
-    "1ia019RqDK2o4QiANR1Dyn?si=04e10331283044f5"
-    // Add more Nicki Minaj track URIs here
-  ];
+// instead of redoing the function i will  just make the number = 0 so it only uses one list to get the songs since i changed the artis from two to one
+
+selectedArtist = "Snoop Dogg";
+selectedTrackUri = snoop[Math.floor(Math.random() * snoop.length)];
 
   // Randomly select an artist
-  if (randomNum === 0) {
-    selectedArtist = "Snoop Dogg";
-    selectedTrackUri = snoop[Math.floor(Math.random() * snoop.length)];
-  } else {
-    selectedArtist = "Nicki Minaj";
-    selectedTrackUri = nicki[Math.floor(Math.random() * nicki.length)];
-  }
+  // if (randomNum === 0) {
+  //   selectedArtist = "Snoop Dogg";
+  //   selectedTrackUri = snoop[Math.floor(Math.random() * snoop.length)];
+  // } 
 
   const options = {
     uri: `spotify:track:${selectedTrackUri}`

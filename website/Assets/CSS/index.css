@@ -8,6 +8,13 @@
 }
 
 
+@font-face {
+  font-family: 'gtating'; /* You can specify any name you like */
+  src: url('./pricedown\ bl.woff') format('woff'),
+  font-weight: bold;
+  font-style: bold;
+}
+
 
 body {
     background-color: var(--gunmetal);
@@ -36,7 +43,7 @@ body {
 
 /* Main section */
 .main {
-    background-image: url('./LandingPageImage.png');
+    background-image: url('./HeaderImageIndex.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -76,7 +83,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+  font-family: 'gtating', sans-serif;
 }
 
 .about-content {
@@ -138,7 +145,7 @@ body {
 
   @media (max-width: 600px) {
     .main {
-        background-image: url(./LandingPageImageMobile.png);
+        background-image: url(./mobileheader.png);
     }
 
     .main-content {
