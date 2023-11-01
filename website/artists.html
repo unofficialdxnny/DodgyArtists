@@ -7,9 +7,20 @@
     <link rel="stylesheet" href="./Assets/CSS/index.css">
     <link rel="stylesheet" href="./Assets/CSS/navbar.css">
 </head>
-<body id="noscroll" class="fade-page">
+<!-- Adding id="noscroll" will disable scroll on this page -->
+<!-- Since i need to disable scroll on desktops i will leave it here
+i will mke use of js so that if the website is opened on mobile or smaller viewpoerts it will remove this id (id="noscroll")
+so that all the content is accessible. -->
+<body class="fade-page">
     
+<!-- <script>
+// function to remove noscroll id if viewport is smaller than x amount in px
 
+const scroll = document.getElementById('noscroll')
+if (innerWidth <= 1280 ) {
+    scroll.remove()
+}
+</script> -->
      
 
   
