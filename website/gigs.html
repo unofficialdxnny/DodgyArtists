@@ -6,6 +6,100 @@
     <title>Dodgy Artists | Gigs</title>
 </head>
 <body>
+    <style>
+        * {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #304050;
+    font-family: 'Days One', sans-serif;
+
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    height: 80px; /* Adjust the height as needed */
+    align-items: center; /* Vertically center the list items */
+    position: fixed;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar li a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 16px; /* Increase the top and bottom padding for height */
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: red;    
+}
+
+
+.navbar li a.active {
+    color: red;
+}
+
+
+    </style>
+
+
+<ul class="navbar">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="Artists.html">Artists</a></li>
+    <li><a class="active" href="gigs.html">Gigs</a></li>
+    <li><a href="shop.html">Shop</a></li>
+</ul>
+
+<h1 class="title">
+    Frenzo Haraami | Upcoming Events | Tours
+</h1>
+<p>
+    This artist has no upcoming tours!
+
+            
+</p>
+
+<style>
+    h1.title {
+        position: absolute;
+        top: 100px;
+        left: 10%;
+        color: white ;
+    }
+
+    p {
+        position: absolute;
+        top: 150px;
+        left: 10%;
+        color: white;
+        background-color: #2e2e2e;
+    }
+
     
+    @media (max-width: 600px) {
+        h1.title {
+            font-size: 20px;
+        }
+
+        p {
+            top: 200px;
+        }
+    }
+
+</style>
+
 </body>
 </html>
