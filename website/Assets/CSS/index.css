@@ -7,6 +7,44 @@
 
 }
 
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.show-menu {
+  display: flex;
+}
+
+
+body.high-contrast {
+  background-color: #000000;
+  color: yellow;
+}
+
+.high-contrast p {
+  color: yellow;
+}
+
+.high-contrast h1 {
+  color: yellow;
+}
+.menu-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
 /* 
 @font-face {
   font-family: 'gtating'; /* You can specify any name you like 
@@ -21,7 +59,7 @@
 body {
     background-color: #304050;
     font-family: 'Days One', sans-serif;
-
+    font-size: 14px;
 }
 
 
@@ -205,6 +243,10 @@ p {
     }
 
     .spotify {
+      display: none;
+    }
+
+    .menu-container {
       display: none;
     }
   }

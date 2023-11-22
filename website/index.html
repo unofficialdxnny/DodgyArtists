@@ -175,6 +175,25 @@ selectedTrackUri = snoop[Math.floor(Math.random() * snoop.length)];
 
 </style>
 
+
+
+<!-- Navigation menu -->
+<div class="menu-container" id="menuContainer">
+    <label for="fontSize">Font Size:</label>
+    <select id="fontSize" onchange="changeFontSize(this.value)">
+        <option value="small">Small</option>
+        <option value="medium" selected>Medium</option>
+        <option value="large">Large</option>
+    </select>
+
+    <label for="contrastToggle">High Contrast:</label>
+    <input type="checkbox" id="contrastToggle" onchange="toggleContrast()">
+</div>
+
+
+
+
+<script src="./Assets/JS/accessibility.js"></script>
 <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
 <script src="./Assets/JS/select.js"></script>
     <script src="./Assets/JS/index.js"></script>
